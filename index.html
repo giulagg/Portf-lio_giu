@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giulia Batista | Portfólio</title>
+    <meta name="description" content="Estudante de Análise e Desenvolvimento de Sistemas, futura desenvolvedora Front-End.">
+    <link rel="shortcut icon" href="./icon/ICONE.png" type="image/png">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./estilo/style.css" />
+</head>
+<body>
+
+    <div class="page">
+
+        <!-- Coluna lateral fixa -->
+        <aside class="sidebar">
+            <div class="sidebar__top">
+                <img class="sidebar__avatar" src="imagens/port_img.jpeg" alt="Foto de perfil de Giulia Batista">
+                <div>
+                    <h1 class="sidebar__name">Giulia Batista</h1>
+                    <p class="sidebar__role">Estudante de ADS, futura desenvolvedora Front-End</p>
+                </div>
+
+                <nav class="sidebar__nav" aria-label="Navegação do portfólio">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#formacao">Formação</a>
+                    <a href="#projetos">Projetos</a>
+                </nav>
+            </div>
+
+            <!-- Troque os href="#" pelos seus links reais quando tiver -->
+            <div class="sidebar__contacts">
+                <a href="https://github.com/giulagg" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/5592996274575" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </aside>
+
+        <!-- Conteúdo -->
+        <main class="content">
+
+            <section id="sobre" class="block">
+                <span class="block__eyebrow">Sobre</span>
+                <h2 class="block__title">Da lógica de programação ao Front-End</h2>
+                <p>
+                    Sou <strong>estudante de Análise e Desenvolvimento de Sistemas na Faculdade Senac AM</strong>, construindo minha base em programação e boas práticas de desenvolvimento de software desde o início da graduação. Tenho interesse especial por como a tecnologia pode se traduzir em experiências simples e funcionais para quem usa.
+                </p>
+                <p>
+                    Meu objetivo de curto prazo é atuar como <strong>desenvolvedora Front-End</strong>, aprofundando HTML, CSS, JavaScript e frameworks modernos, com o plano de evoluir para uma atuação <strong>Full Stack</strong>. A médio prazo, pretendo cursar uma <strong>pós-graduação em Engenharia de Software</strong> para consolidar uma visão mais ampla sobre arquitetura, qualidade e processos de desenvolvimento.
+                </p>
+                <p>
+                    Ao longo da formação, venho buscando cursos complementares para ampliar minha base técnica — de lógica de programação e segurança da informação a fundamentos de infraestrutura — sempre com a mesma curiosidade que me trouxe até a área de tecnologia.
+                </p>
+            </section>
+
+            <section id="formacao" class="block">
+                <span class="block__eyebrow">Formação</span>
+                <h2 class="block__title">Cursos e certificações</h2>
+                <ul class="credential-list">
+                    <li class="credential-item">
+                        <span class="credential-item__course">HTML e CSS - Criação de Websites</span>
+                        <span class="credential-item__org">SENAC PSG</span>
+                    </li>
+                    <li class="credential-item">
+                        <span class="credential-item__course">Programação em Python</span>
+                        <span class="credential-item__org">SENAC PSG</span>
+                    </li>
+                    <li class="credential-item">
+                        <span class="credential-item__course">Fundamentos de TI: Hardware e Software</span>
+                        <span class="credential-item__org">Fundação Bradesco</span>
+                    </li>
+                    <li class="credential-item">
+                        <span class="credential-item__course">Cibersegurança</span>
+                        <span class="credential-item__org">Cisco</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="projetos" class="block">
+                <span class="block__eyebrow">Projetos</span>
+                <h2 class="block__title">Projetos acadêmicos</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h3 class="project-item__title">Projeto Estacionamento Web</h3>
+                        <p class="project-item__desc">Sistema web para controle e gerenciamento de vagas de estacionamento, desenvolvido como projeto acadêmico.</p>
+                        <!-- Troque pelo link real do repositório -->
+                        <a href="#" class="project-item__link">Ver repositório →</a>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="project-item__title">Site de Confeitaria</h3>
+                        <p class="project-item__desc">Site institucional para apresentar produtos e informações de uma confeitaria, desenvolvido como projeto acadêmico.</p>
+                        <!-- Troque pelo link real do repositório -->
+                        <a href="#" class="project-item__link">Ver repositório →</a>
+                    </div>
+                </div>
+            </section>
+
+            <p class="content__footer">&copy; <span id="year"></span> Giulia Batista. Todos os direitos reservados.</p>
+        </main>
+    </div>
+
+    <script src="./js/main.js" defer></script>
+</body>
+</html>
